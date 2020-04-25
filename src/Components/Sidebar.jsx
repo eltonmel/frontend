@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Nav from './Nav';
+import Nav from '@/Components/Nav';
 
-import '../Styles/Sidebar.scss';
+import '@/Styles/Sidebar.scss';
 
 export default () => (
   <aside className="sidebar">
