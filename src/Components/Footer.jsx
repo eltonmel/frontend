@@ -1,3 +1,5 @@
 import React from 'react';
 
-export default (props) => <footer className="footer">Footer</footer>;
+import '../Styles/Footer.scss';
+
+export default () => <footer className="footer">Footer</footer>;

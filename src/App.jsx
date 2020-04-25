@@ -5,7 +5,7 @@ import Sidebar from './Components/Sidebar';
 import Content from './Components/Content';
 import Footer from './Components/Footer';
 
-import './App.css';
+import './App.scss';
 
 export default () => (
   <div className="app">
