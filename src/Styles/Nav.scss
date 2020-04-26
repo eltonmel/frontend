@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.3rem;
   overflow: auto;
   padding-bottom: 6em;
   z-index: 9;
@@ -55,9 +55,9 @@
   }
 
   & > ul > li > a:after {
-    content: '\f054';
+    content: '\f105';
     font-family: 'Font Awesome 5 Free';
-    font-size: 0.5em;
+    font-size: 0.6em;
     font-weight: 900;
     width: 10px;
     color: #fff;

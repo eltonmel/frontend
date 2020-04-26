@@ -35,6 +35,13 @@
     'sidebar content'
     'sidebar footer';
 
+  &.hide-menu {
+    grid-template-areas:
+      'header header'
+      'content content'
+      'footer footer';
+  }
+
   h1,
   h2,
   h3,
@@ -47,5 +54,10 @@
 
   i {
     margin-right: 5px;
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
   }
 }
