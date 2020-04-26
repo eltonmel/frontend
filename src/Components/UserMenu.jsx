@@ -4,7 +4,9 @@ import '@/Styles/UserMenu.scss';
 
 export default () => {
   const showUserMenu = (event) => {
+    const button = event.target;
     const container = event.target.nextElementSibling;
+    button.classList.toggle('active');
     container.classList.toggle('hidden');
   };
 
